@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "aspnet50": {
+      "frameworkAssemblies": {
+        "System.Windows.Forms": "",
+        "System.Drawing": "",
+        "System.Data": "",
+        "System": ""
+      }
+    },
+    "aspnetcore50": {
+      "dependencies": {
+        "Mono.System.Windows.Forms": "",
+        "Mono.System.Drawing": ""
+      }
+    }
+  }
+}

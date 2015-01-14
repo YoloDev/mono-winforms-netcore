@@ -1,17 +1,15 @@
 ﻿{
-    "version": "1.0.0-*",
-    "commands": {
-        "run": "run"
-    },
-    "resources": "../TestApp/*.resx",
-    "code": "../TestApp/*.cs",
-    "frameworks": {
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Drawing": "",
-                "System.Windows.Forms": "",
-                "System.Console": "4.0.0-beta-22231"
-            }
-        }
-    }
+  "version": "1.0.0-*",
+  "commands": {
+    "run": "run"
+  },
+  "resources": "../TestApp/*.resx",
+  "code": "../TestApp/*.cs",
+  "dependencies": {
+    "YoloDev.WinForms": ""
+  },
+  "frameworks": {
+    "aspnet50": { },
+    "aspnetcore50": { }
+  }
 }
