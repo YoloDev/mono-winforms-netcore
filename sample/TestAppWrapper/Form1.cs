@@ -14,6 +14,7 @@ namespace TestApp2
     {
         public Form1 ()
         {
+            System.Diagnostics.Debugger.Launch();
             InitializeComponent();
         }
 

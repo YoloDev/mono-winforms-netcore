@@ -3,8 +3,7 @@
   "commands": {
     "run": "run"
   },
-  "resources": "../TestApp/*.resx",
-  "code": "../TestApp/*.cs",
+  "resources": "*.resx",
   "dependencies": {
     "YoloDev.WinForms": ""
   },
