@@ -4,6 +4,9 @@ version: "1.0.0-beta2-{build}"
 init:
   - git config --global core.autocrlf input
 
+install:
+  - git submodule update --init --recursive
+
 # this turns of AppVeyor automatic searching for test-assemblies, not the actual testing
 test: off
 
